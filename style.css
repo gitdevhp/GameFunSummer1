@@ -13,11 +13,12 @@ body, html {
 }
 
 #start {
+    margin-top: 250px;
     color:whitesmoke;
-    size: 26px;
+    size: 32px;
     padding: 30px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
     border-radius: 46px;
     background-color: black;
     border-color: aliceblue;
