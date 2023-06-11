@@ -8,6 +8,6 @@ body, html {
 #gameTitle {
     color:aliceblue;
     font:bolder;
-    font-family: 'Gasoek+One', serif;
-        font-size: 48px;
+    font-family: 'Gasoek+One';
+    font-size: 48px;
 }
