@@ -17,7 +17,7 @@
 }
 
 .trans1 {
-    z-index: 999999;
+    z-index: -999999999999999;
     background-color: dimgray;
     top: -700px;
     height: 90vh;
@@ -29,6 +29,14 @@ body, html {
     color: black;
     overflow: hidden;
     z-index: -9999999;
+}
+
+
+
+button:hover {
+    background-color: beige;
+    color: black;
+    border-color: grey;
 }
 
 #loaded {
