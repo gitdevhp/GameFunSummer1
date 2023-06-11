@@ -23,3 +23,9 @@ body, html {
     background-color: black;
     border-color: aliceblue;
 }
+
+#setBut {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
