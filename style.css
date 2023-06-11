@@ -13,9 +13,9 @@ body, html {
 }
 
 #start {
-    color:brown;
+    color:whitesmoke;
     padding: 10px;
-    border-radius: 26px;
+    border-radius: 46px;
     background-color: black;
     border-color: aliceblue;
 }
