@@ -8,14 +8,16 @@ body, html {
 #Loaded {
     color:aliceblue;
     font-family: 'Gasoek One';
-    font-size: 48px;
+    font-size: 38px;
     text-align: center;
 }
 
 #start {
     color:whitesmoke;
-    text-size-adjust: 26px;
+    size: 26px;
     padding: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
     border-radius: 46px;
     background-color: black;
     border-color: aliceblue;
