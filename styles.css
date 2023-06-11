@@ -16,6 +16,16 @@
     }
 }
 
+#topT {
+    top: 100%;
+    animation-name: 'pageTransTop';
+}
+
+#botT {
+    bottom: 100%;
+    animation-name: 'pageTransBottom';
+}
+
 .trans1 {
     position: absolute;
     z-index: 999999999;
@@ -23,6 +33,7 @@
     top: -100%;
     height: 40vh;
     width: 100%;
+    animation-duration: 1.5s;
 }
 
 body, html {
