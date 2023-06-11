@@ -1,0 +1,6 @@
+body, html {
+    background-color: black;
+    color: black;
+    overflow: hidden;
+    z-index: -9999999;
+}
