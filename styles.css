@@ -1,3 +1,29 @@
+@keyframes pageTransTop {
+    from {
+        transform: translateY(700px);
+    }
+    to {
+        transform: translateY(-700px);
+    }
+}
+@keyframes pageTransBottom {
+    from {
+        transform: translateY(-700px);
+    }
+
+    to {
+        transform: translateY(700px);
+    }
+}
+
+.trans1 {
+    z-index: 999999;
+    background-color: dimgray;
+    top: -700px;
+    height: 900vh;
+    width: fit-content;
+}
+
 body, html {
     background-color: black;
     color: black;
