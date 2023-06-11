@@ -14,6 +14,7 @@ body, html {
 
 #start {
     color:whitesmoke;
+    text-size-adjust: 26px;
     padding: 30px;
     border-radius: 46px;
     background-color: black;
