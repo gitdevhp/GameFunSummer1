@@ -9,4 +9,13 @@ body, html {
     color:aliceblue;
     font-family: 'Gasoek One';
     font-size: 48px;
+    text-align: center;
+}
+
+#start {
+    color:brown;
+    padding: 10px;
+    border-radius: 26px;
+    background-color: black;
+    border-color: aliceblue;
 }
