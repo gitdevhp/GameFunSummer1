@@ -4,3 +4,10 @@ body, html {
     overflow: hidden;
     z-index: -9999999;
 }
+
+#gameTitle {
+    color:aliceblue;
+    font:bolder;
+    font-family: 'Gasoek+One', serif;
+        font-size: 48px;
+}
