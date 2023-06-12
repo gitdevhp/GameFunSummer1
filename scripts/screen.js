@@ -1,4 +1,5 @@
 function gameSet(){
+    console.log('ok');
     document.getElementById('pageHideShow').style.display='block';
     document.getElementsByClassName('trans1').style.animationPlayState='running';
     setTimeout(() => {
