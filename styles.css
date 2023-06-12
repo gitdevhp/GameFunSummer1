@@ -24,6 +24,10 @@
     font-size: 40px;
 }
 
+#pageHideShow {
+    align-items: center;
+}
+
 @keyframes pageTransTop {
     0% {
         transform: translateY(0);
@@ -87,7 +91,7 @@ body, html {
 
 
 
-.contBut:hover {
+#setBut:hover {
     background-color: beige;
     color: black;
     border-color: grey;
