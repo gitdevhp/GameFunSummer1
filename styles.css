@@ -1,18 +1,30 @@
 @keyframes pageTransTop {
-    from {
+    0% {
         transform: translateY(700px);
     }
-    to {
-        transform: translateY(-700px);
+    25% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(700px);
     }
 }
 @keyframes pageTransBottom {
-    from {
+    0% {
         transform: translateY(-700px);
     }
 
-    to {
-        transform: translateY(700px);
+    25% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-700px);
     }
 }
 
@@ -33,7 +45,8 @@
     top: -100%;
     height: 40vh;
     width: 100%;
-    animation-duration: 1.5s;
+    animation-duration: 6s;
+    animation-play-state: paused;
 }
 
 body, html {
