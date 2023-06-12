@@ -68,7 +68,7 @@
 .trans1 {
     position: absolute;
     z-index: 1000;
-    background-color: black;
+    background-color: darkslategrey;
     height: 50vh;
     width: 100%;
     animation-duration: 6s;
