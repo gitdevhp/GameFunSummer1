@@ -3,7 +3,7 @@ function gameSet(nextLoadedScene){
     document.getElementById('pageHideShow').style.display='block';
     document.getElementsByClassName('trans1')[0].style.animationPlayState='running';
     document.getElementsByClassName('trans1')[1].style.animationPlayState='running';
-    setTimeout((nextLoadedScene) => {
+    setTimeout(() => {
         nextLoadedScene;
     }, 3000);
     setTimeout(() => {
