@@ -1,10 +1,10 @@
-function gameSet(nextLoadedScene){
+function gameSet(firstSce, secondSce){
     console.log('ok');
     document.getElementById('pageHideShow').style.display='block';
     document.getElementsByClassName('trans1')[0].style.animationPlayState='running';
     document.getElementsByClassName('trans1')[1].style.animationPlayState='running';
     setTimeout(() => {
-        nextLoadedScene;
+        gamePlay(firstSce, secondSce);
     }, 3000);
     setTimeout(() => {
         document.getElementsByClassName('trans1')[0].style.animationPlayState='initial';
@@ -15,8 +15,8 @@ function gameSet(nextLoadedScene){
       }, 7000);
 }
 
-function gamePlay() {
+function gamePlay(firstSce, secondSce) {
     console.log('arrived');
-    document.getElementById('loaded').style.display='none';
-    document.getElementById('mainScr').style.display='block';
+    document.getElementById(firstSce).style.display='none';
+    document.getElementById(secondSce).style.display='block';
 }
