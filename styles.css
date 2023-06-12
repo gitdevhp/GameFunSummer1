@@ -46,6 +46,8 @@
     width: 100%;
     animation-duration: 6s;
     animation-play-state: paused;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
 }
 
 body, html {
