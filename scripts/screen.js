@@ -17,12 +17,13 @@ function gameSet(firstSce, secondSce){
         document.getElementById('splashText').style.display='block';
         document.getElementById('splashText').style.animationPlayState='running';
         setInterval(() => {
-            document.getElementById('splashText').style.display='none';
             document.getElementById('splashText').style.animationPlayState='initial';
             document.getElementById('splashText').style.animationPlayState='paused';
-            document.getElementById('splashText').style.display='none';
         }, 3000);
     }, 1500);
+    setInterval(() => {
+        document.getElementById('splashText').style.display='none';
+    }, 4500);
 }
 
 function gamePlay(firstSce, secondSce) {
