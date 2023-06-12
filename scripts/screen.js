@@ -1,5 +1,9 @@
+const splashArr = ["Don't Lose", "U winnin' son?", "They are in my walls", 
+"To be a conspiracy or to not be a conspiracy"];
+
 function gameSet(firstSce, secondSce){
     console.log('ok');
+    document.getElementById("splashText").innerHTML=splashArr[Math.floor(Math.random()*splashArr.length)];
     document.getElementById('pageHideShow').style.display='block';
     document.getElementsByClassName('trans1')[0].style.animationPlayState='running';
     document.getElementsByClassName('trans1')[1].style.animationPlayState='running';
