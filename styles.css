@@ -19,6 +19,9 @@
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     animation-iteration-count: 1;
     color:aliceblue;
+    text-align: center;
+    margin-top: 300px;
+    size: 40px;
 }
 
 @keyframes pageTransTop {
