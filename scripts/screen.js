@@ -11,8 +11,8 @@ function gameSet(){
         document.getElementsByClassName('trans1')[1].style.animationPlayState='initial';
         document.getElementsByClassName('trans1')[0].style.animationPlayState='paused';
         document.getElementsByClassName('trans1')[1].style.animationPlayState='paused';
-
-      }, 6000);
+        document.getElementById('pageHideShow').style.display='none';
+      }, 7000);
 }
 
 function gamePlay() {
