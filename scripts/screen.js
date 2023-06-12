@@ -13,6 +13,15 @@ function gameSet(firstSce, secondSce){
         document.getElementsByClassName('trans1')[1].style.animationPlayState='paused';
         document.getElementById('pageHideShow').style.display='none';
       }, 7000);
+    setInterval(() => {
+        document.getElementById('splashText').style.display='block';
+        document.getElementById('splashText').style.animationPlayState='running';
+        setInterval(() => {
+            document.getElementById('splashText').style.display='none';
+            document.getElementById('splashText').style.animationPlayState='initial';
+            document.getElementById('splashText').style.animationPlayState='paused';
+        }, 3000);
+    }, 1500);
 }
 
 function gamePlay(firstSce, secondSce) {
