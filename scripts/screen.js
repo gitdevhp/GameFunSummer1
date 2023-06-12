@@ -20,7 +20,7 @@ function gameSet(firstSce, secondSce){
             document.getElementById('splashText').style.display='none';
             document.getElementById('splashText').style.animationPlayState='initial';
             document.getElementById('splashText').style.animationPlayState='paused';
-        }, 3000);
+        }, 1500);
     }, 1500);
 }
 
