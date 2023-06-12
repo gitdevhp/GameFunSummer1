@@ -42,7 +42,7 @@
     position: absolute;
     z-index: 999999999;
     background-color: dimgray;
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     animation-duration: 6s;
     animation-play-state: paused;
