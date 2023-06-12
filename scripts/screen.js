@@ -1,10 +1,10 @@
-function gameSet(){
+function gameSet(nextLoadedScene){
     console.log('ok');
     document.getElementById('pageHideShow').style.display='block';
     document.getElementsByClassName('trans1')[0].style.animationPlayState='running';
     document.getElementsByClassName('trans1')[1].style.animationPlayState='running';
-    setTimeout(() => {
-        gamePlay();
+    setTimeout((nextLoadedScene) => {
+        nextLoadedScene;
     }, 3000);
     setTimeout(() => {
         document.getElementsByClassName('trans1')[0].style.animationPlayState='initial';
