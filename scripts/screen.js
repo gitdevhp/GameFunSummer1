@@ -37,5 +37,11 @@ function gamePlay(firstSce, secondSce) {
 }
 
 function openSetting() {
-    document.getElementById()
+    document.getElementById('setPage').style.display='block';
+    document.getElementById('setBut').style.display='none';
+}
+
+function closeS() {
+    document.getElementById('setPage').style.display='none';
+    document.getElementById('setBut').style.display='block';
 }
