@@ -152,5 +152,29 @@ html {
     color: black;
 }
 
+@keyframes playLevFade {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: #8C271E;
+    }
+    100% {
+        background-color: black;
+    }
+}
+#playLev {
+    background-color: black;
+    color: aliceblue;
+    border-color: whitesmoke;
+    font-size: 32px;
+    font-family: 'Gasoek One';
+
+    animation-name: 'playLevFade';
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.1,.5,.9,.5);
+}
+
 
 /*FlexBox*/
