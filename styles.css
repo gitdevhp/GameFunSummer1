@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-iteration-count: 1;
 }
 #splashText {
     margin-top: 500px;
@@ -170,6 +171,7 @@ html {
     font-size: 32px;
     font-family: 'Gasoek One';
     margin: 0 auto;
+    margin-top: 600px;
 
     animation-name: 'playLevFade';
     animation-iteration-count: infinite;
