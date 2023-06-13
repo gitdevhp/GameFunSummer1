@@ -143,13 +143,13 @@ html {
     align-items: center;
     background-color: beige;
     width: 200px;
-    height: 30px;
+    height: 100px;
     top: 0px;
     left: 0px;
 }
 
 #tempT {
-    color: wheat;
+    color: black;
 }
 
 
