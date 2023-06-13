@@ -27,6 +27,8 @@ function gameSet(firstSce, secondSce){
     }, 1500);
     setInterval(() => {
         document.getElementById('splashText').style.display='none';
+        document.getElementById('splashText').style.visibility='hidden';
+        
     }, 4500);
 }
 
