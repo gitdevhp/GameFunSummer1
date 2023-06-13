@@ -105,7 +105,6 @@ html {
     color: aliceblue;
     font-family: 'Gasoek One';
     font-size: 38px;
-    align-items: center;
 }
 
 #gameTitle {
@@ -114,8 +113,7 @@ html {
 }
 
 #start {
-    display: flex;
-    justify-content: center;
+
     position: absolute;
     color: whitesmoke;
     size: 32px;
