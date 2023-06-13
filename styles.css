@@ -105,9 +105,11 @@ html {
     color: aliceblue;
     font-family: 'Gasoek One';
     font-size: 38px;
+    align-items: center;
 }
 
 #start {
+    position: absolute;
     margin-top: 250px;
     color: whitesmoke;
     size: 32px;
