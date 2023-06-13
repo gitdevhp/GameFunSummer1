@@ -102,14 +102,16 @@ html {
 }
 
 #loaded {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     color: aliceblue;
     font-family: 'Gasoek One';
     font-size: 38px;
 }
 
 #gameTitle {
-    display: flex;
-    justify-content: center;
+    flex: 0 0 38px;
 }
 
 #start {
