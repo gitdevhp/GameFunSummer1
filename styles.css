@@ -111,7 +111,7 @@ html {
 }
 
 #gameTitle {
-    flex: 0 0 38px;
+    flex: 2;
 }
 
 #start {
