@@ -126,9 +126,3 @@ html {
 
 
 /*FlexBox*/
-
-.tipSplash {
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-}
