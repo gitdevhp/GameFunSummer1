@@ -35,3 +35,7 @@ function gamePlay(firstSce, secondSce) {
     document.getElementById(firstSce).style.display='none';
     document.getElementById(secondSce).style.display='block';
 }
+
+function openSetting() {
+    document.getElementById()
+}
