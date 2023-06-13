@@ -102,12 +102,10 @@ html {
 }
 
 #loaded {
-    display: flex;
     color: aliceblue;
     font-family: 'Gasoek One';
     font-size: 38px;
     justify-content: center;
-    position: absolute;
 }
 
 #start {
@@ -120,7 +118,6 @@ html {
     border-radius: 46px;
     background-color: black;
     border-color: aliceblue;
-    position: absolute;
 }
 
 #setBut {
