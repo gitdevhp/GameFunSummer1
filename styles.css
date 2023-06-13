@@ -25,9 +25,7 @@
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
     color: aliceblue;
-    margin-top: 400px;
-    margin-left: 500px;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 @keyframes pageTransTop {
