@@ -115,7 +115,7 @@ html {
 }
 
 #start {
-
+    margin-top: 500px;
     position: absolute;
     color: whitesmoke;
     size: 32px;
