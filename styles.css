@@ -169,7 +169,7 @@ html {
     border-color: whitesmoke;
     font-size: 32px;
     font-family: 'Gasoek One';
-    margin: auto;
+    margin: 0 auto;
 
     animation-name: 'playLevFade';
     animation-iteration-count: infinite;
