@@ -179,3 +179,8 @@ html {
 
 
 /*FlexBox*/
+#letsPlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
