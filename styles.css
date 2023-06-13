@@ -105,11 +105,17 @@ html {
     color: aliceblue;
     font-family: 'Gasoek One';
     font-size: 38px;
-    width: max-content;
     align-items: center;
 }
 
+#gameTitle {
+    display: flex;
+    justify-content: center;
+}
+
 #start {
+    display: flex;
+    justify-content: center;
     position: absolute;
     margin-top: 250px;
     color: whitesmoke;
