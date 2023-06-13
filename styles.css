@@ -102,10 +102,11 @@ html {
 }
 
 #loaded {
+    display: flex;
     color: aliceblue;
     font-family: 'Gasoek One';
     font-size: 38px;
-    text-align: center;
+    justify-content: center;
     position: absolute;
 }
 
