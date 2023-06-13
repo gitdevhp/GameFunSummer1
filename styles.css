@@ -117,7 +117,6 @@ html {
     display: flex;
     justify-content: center;
     position: absolute;
-    align-self: center;
     color: whitesmoke;
     size: 32px;
     padding: 30px;
