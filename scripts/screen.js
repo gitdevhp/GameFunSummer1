@@ -23,6 +23,7 @@ function gameSet(firstSce, secondSce){
         setInterval(() => {
             document.getElementById('splashText').style.animationPlayState='initial';
             document.getElementById('splashText').style.animationPlayState='paused';
+            document.getElementById('splashText').style.display='none';
         }, 3000);
     }, 1500);
     setInterval(() => {
