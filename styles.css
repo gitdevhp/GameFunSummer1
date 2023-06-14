@@ -197,8 +197,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 50vh;
-    width: 100vh;
+    height: 80vh;
+    width: 150vh;
     position: absolute;
 }
 
