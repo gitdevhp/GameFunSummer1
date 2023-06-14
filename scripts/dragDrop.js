@@ -1,4 +1,4 @@
-const selectCard = document.querySelectorAll('#test');
+const selectCard = document.querySelector('#test');
 const droppedArea = document.querySelectorAll('.cardSect');
 
 selectCard.addEventListener('dragStart', dragStart);
