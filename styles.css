@@ -17,6 +17,7 @@
     align-items: center;
     animation-iteration-count: 1;
     height: 100vh;
+    position: absolute;
 }
 #splashText {
     flex: 1 2 1;
