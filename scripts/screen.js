@@ -8,6 +8,8 @@ function gameSet(firstSce, secondSce){
     document.getElementById('pageHideShow').style.display='block';
     document.getElementsByClassName('trans1')[0].style.animationPlayState='running';
     document.getElementsByClassName('trans1')[1].style.animationPlayState='running';
+    document.getElementsByClassName('trans1')[0].style.animationPlayState='initial';
+    document.getElementsByClassName('trans1')[1].style.animationPlayState='initial';
     setTimeout(() => {
         gamePlay(firstSce, secondSce);
     }, 3000);
