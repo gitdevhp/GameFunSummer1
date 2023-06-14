@@ -20,6 +20,7 @@ function gameSet(firstSce, secondSce){
       }, 7000);
     setInterval(() => {
         document.getElementById('splashText').style.display='block';
+        document.getElementById('splashText').style.visibility='visible';
         document.getElementById('splashText').style.animationPlayState='running';
         setInterval(() => {
             document.getElementById('splashText').style.animationPlayState='paused';
