@@ -19,6 +19,7 @@ function gameSet(firstSce, secondSce){
         document.getElementById('pageHideShow').style.display='none';
       }, 7000);
     setInterval(() => {
+        document.getElementById('splashText').style.animationPlayState='initial';
         document.getElementById('splashText').style.display='block';
         document.getElementById('splashText').style.visibility='visible';
         document.getElementById('splashText').style.animationPlayState='running';
