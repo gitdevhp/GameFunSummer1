@@ -11,6 +11,7 @@ droppedArea.forEach(placeArea => {
 let beingDragged;
 
 function dragStart(dragged){
+    console.log(beingDragged);
     beingDragged=dragged.target;    
 }
 
