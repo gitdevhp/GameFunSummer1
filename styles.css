@@ -185,6 +185,8 @@ html {
     font-size: 16px;
     border-color: aliceblue;
     background-color: black;
+    width: fit-content;
+    height: 14vh;
 }
 
 
