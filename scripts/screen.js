@@ -1,6 +1,7 @@
 const splashArr = ["Don't Lose", "U winnin' son?", "They are in my walls", 
 "To be a conspiracy or to not be a conspiracy"];
 
+//basic homepage settings
 function gameSet(firstSce, secondSce){
     console.log('ok');
     document.getElementById("splashText").innerHTML=splashArr[Math.floor(Math.random()*splashArr.length)];
@@ -47,3 +48,5 @@ function closeS() {
     document.getElementById('setPage').style.display='none';
     document.getElementById('setBut').style.display='block';
 }
+
+//game start and functions
