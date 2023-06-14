@@ -172,8 +172,7 @@ html {
     border-color: whitesmoke;
     font-size: 32px;
     font-family: 'Gasoek One';
-    margin: 0 auto;
-    margin-top: 600px;
+    position: absolute;
 
     animation-name: 'playLevFade';
     animation-iteration-count: infinite;
@@ -195,10 +194,12 @@ html {
 
 /*FlexBox*/
 #letsPlay {
-    flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+    height: 100vh;
+    width: 100vh;
+    position: absolute;
 }
 
 #cardPlace {
