@@ -179,6 +179,14 @@ html {
     animation-timing-function: cubic-bezier(.1,.5,.9,.5);
 }
 
+.cardSect {
+    align-items: center;
+    font-family: 'Gasoek One';
+    font-size: 16px;
+    border-color: aliceblue;
+    background-color: black;
+}
+
 
 /*FlexBox*/
 #letsPlay {
@@ -186,4 +194,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#cardPlace {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
 }
