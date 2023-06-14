@@ -14,8 +14,6 @@ function gameSet(firstSce, secondSce){
         gamePlay(firstSce, secondSce);
     }, 3000);
     setTimeout(() => {
-        document.getElementsByClassName('trans1')[0].style.animationPlayState='initial';
-        document.getElementsByClassName('trans1')[1].style.animationPlayState='initial';
         document.getElementsByClassName('trans1')[0].style.animationPlayState='paused';
         document.getElementsByClassName('trans1')[1].style.animationPlayState='paused';
         document.getElementById('pageHideShow').style.display='none';
