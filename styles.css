@@ -186,8 +186,14 @@ html {
     font-size: 16px;
     color: white;
     background-color: gray;
-    width: fit-content;
+    width: 25vw;
     height: 14vh;
+}
+
+#test {
+    position: absolute;
+    height: 5vh;
+    width: auto;
 }
 
 
@@ -196,7 +202,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 80vh;
+    height: 70vh;
     width: 150vh;
     position: absolute;
 }
@@ -206,6 +212,15 @@ html {
     justify-content: space-evenly;
     align-items: end;
     height: 80vh;
+    width: 100vw;
+    position: absolute;
+}
+
+#playerCards {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 85vh;
     width: 100vw;
     position: absolute;
 }
