@@ -196,7 +196,7 @@ html {
 #letsPlay {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: baseline;
     height: 100vh;
     width: 100vh;
     position: absolute;
