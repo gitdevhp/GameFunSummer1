@@ -180,10 +180,12 @@ html {
 }
 
 .cardSect {
+    margin-top: 600px;
     align-items: center;
     font-family: 'Gasoek One';
     font-size: 16px;
     color: white;
+    border-radius: 3;
     border-color: aliceblue;
     background-color: black;
     width: fit-content;
