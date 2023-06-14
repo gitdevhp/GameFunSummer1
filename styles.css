@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     animation-iteration-count: 1;
+    height: 100%;
 }
 #splashText {
     margin-top: 500px;
