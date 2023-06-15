@@ -1,7 +1,7 @@
-const draggables = document.querySelectorAll('.card');
+const draggable = document.querySelectorAll('.card');
 const dropArea = document.querySelectorAll('.cardSect');
 
-draggables.forEach((card) => {
+draggable.forEach((card) => {
     card.addEventListener("dragstart", () => {
         card.classList.add('is-dragging');
     });
@@ -15,6 +15,13 @@ dropArea.forEach((zone) => {
         e.preventDefault();
 
         const bottomTask = insertAboveTask(zone, e.clientY);
+        const curCard = document.querySelector('is-dragging');
+
+        if(!bottomTask){
+            zone.appendChild('curCard');
+        } else {
+            zone.insertBefore(curCard,bottomTask)
+        }
     });
 });
 
@@ -31,5 +38,5 @@ const insertAboveTask = (zone, mouseY) => {
             closestCard = card;
         }
     });
-    
+    return closestCard;
 };
