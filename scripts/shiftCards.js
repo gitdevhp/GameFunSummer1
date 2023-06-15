@@ -20,13 +20,16 @@ dropArea.forEach((zone) => {
 
 const insertAboveTask = (zone, mouseY) => {
     const els = zone.querySelectorAll(".card:not('.is-dragging')");
-    let closestTask = null;
+    let closestCard = null;
     let closestOffset = Number.NEGATIVE_INFINITY;
 
     els.forEach((card) => {
         const { top } = card.getBoundingClientRect();
         const offset = mouseY - top;
-        if(offset<0&& offset>closestOffset)
+        if(offset<0&& offset>closestOffset){
+            closestOffset = offset;
+            closestCard = card;
+        }
     });
     
 };
