@@ -9,3 +9,24 @@ draggables.forEach((card) => {
         card.classList.remove('is-dragging');
     });
 });
+
+dropArea.forEach((zone) => {
+    area.addEventListener("dragover",(e) => {
+        e.preventDefault();
+
+        const bottomTask = insertAboveTask(zone, e.clientY);
+    });
+});
+
+const insertAboveTask = (zone, mouseY) => {
+    const els = zone.querySelectorAll(".card:not('.is-dragging')");
+    let closestTask = null;
+    let closestOffset = Number.NEGATIVE_INFINITY;
+
+    els.forEach((card) => {
+        const { top } = card.getBoundingClientRect();
+        const offset = mouseY - top;
+        if(offset<0&& offset>closestOffset)
+    });
+    
+};
