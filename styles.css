@@ -190,10 +190,13 @@ html {
     height: 14vh;
 }
 
-#test {
+.card {
     position: absolute;
-    height: 5vh;
-    width: auto;
+    height:fit-content;
+    width:auto;
+    font-size: 16px;
+    background-color: aliceblue;
+    
 }
 
 
